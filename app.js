@@ -13,3 +13,17 @@ document.getElementById('add-btn').addEventListener("click",function(){
     }
     
 });
+
+
+
+document.getElementById("hit").addEventListener("click",
+function(){
+ setInnerText("p-1","Bangladesh");
+ setInnerText("p-2","Canada");
+ setInnerText("p-3","USA");
+ setInnerText("p-4","UK");
+});
+
+function setInnerText(id,value){
+  document.getElementById(id).innerText= value;
+}
